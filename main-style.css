@@ -2,7 +2,11 @@
 	font-family: arial;
 }
 
-body {
+#mobile-body {
+	font-size: 20px;
+}
+
+#desktop-body {
 	background-image: url("images/bg.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
