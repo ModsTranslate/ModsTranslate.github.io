@@ -1,0 +1,55 @@
+* {
+	font-family: arial;
+}
+
+p {
+	font-size: 18px;
+}
+
+#header {
+	text-align: center;
+}
+
+a:visited {
+	color: blue;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#btn {
+	display: inline-block; /* Строчно-блочный элемент */
+    background: #ababab; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 15px;
+	font-size: 30px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+#btn:hover {
+	display: inline-block; /* Строчно-блочный элемент */
+    background: #7d7d7d; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 15px;
+	font-size: 30px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+textarea {
+    width: 60%; /* Ширина поля в процентах */
+    height: 200px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+	font-size: 17px;
+} 

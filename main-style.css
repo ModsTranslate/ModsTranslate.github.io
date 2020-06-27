@@ -1,0 +1,70 @@
+* {
+	font-family: arial;
+}
+
+body {
+	background-image: url("images/bg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+  
+	padding: 7%;
+	padding-top: 5%;
+	font-size: 20px;
+}
+
+#main {
+	padding: 2%;
+	background-color: white;
+	border: 2px solid black;
+}
+
+#cap {
+	text-align: center;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+#nav {
+	border: 2px solid black;
+	border-top: none;
+	overflow: hidden;
+	height: 600px;
+}
+
+#text {
+	border: 2px solid black;
+	border-top: none;
+	border-right: none;
+	width: 70%;
+	float: left;
+	height: 600px;
+}
+
+#clear {
+	clear: both;
+}
+
+#footer {
+	text-align: center;
+	border: 2px solid black;
+	background: black;
+	color: white;
+}
+
+a:visited {
+	color: blue;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	filter: drop-shadow(0 0 3px rgba(0,0,0,0.7));
+}
